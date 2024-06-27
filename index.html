@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi park</title>
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/element.css">
+   
+</head>
+<body>
+    <div class="wrapper">
+        <header class="headwrapper">
+            <div class="sitename">
+                 <img src="/img/Screenshot_2.png" class="logoImage" alt="fsfs">
+                <b class="logo">TaxiPark</b>
+            </div>
+            <div class="switchwrapper">
+                <div><button class="black-button" id="preparebn" onclick="prepare()" >Ready solution</button></div>
+                <div><span class="black-button" onclick="modifyModalToCreate()"> Add car</span></div>
+            </div>
+            <div class="switchwrapper">
+                <div class="textAtSwitcher">Sort by mark</div> 
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" id="sortcheckbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="switchwrapper">
+                <div class="searchFieldConteiner">
+                    <input type="search" id="csearch" class="searchfield" placeholder="Search"/>
+                    <button class="search-icon" id="searchbtn" aria-label="Search"></button>
+                </div>
+                <div><button class="red-button" id="cancelbtn">Cancel</button></div>
+            </div>
+        </header>
+        
+        <div class="workspace">
+            <div class="displayzone">
+               
+            </div>
+        </div>
+        
+        
+       
+    </div>
+
+
+<script src="scr/base.js"></script>
+<script src="scr/modal.js"></script>
+<script src="scr/prepare.js"></script>
+
+<script src="scr/index.js"></script>
+<script src="scr/element.js"></script>
+<script src="scr/sort_searh.js"></script>
+</body>
+</html>
